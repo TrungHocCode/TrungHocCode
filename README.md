@@ -28,6 +28,7 @@ My current focus is on:
 - **LLM applications & agentic systems** — planning, tool use, workflow orchestration, human-in-the-loop, and evaluation.
 - **Applied machine learning** — turning experiments into usable end-to-end AI pipelines.
 - **AI system engineering** — APIs, asynchronous workers, persistence, observability, and reproducible environments.
+- **Local inference & performance engineering** — hardware-aware tuning, benchmarking, and roofline modeling for running LLMs efficiently on real machines.
 - **Computer vision & OCR** — extracting structured information from visual data.
 
 I care about building AI systems that are not only capable, but also **reliable, traceable, and maintainable**.
@@ -44,11 +45,22 @@ Through this project, I'm currently exploring:
 
 **Multi-Agent Systems** · **LangGraph** · **LangChain** · **Tool Use** · **Human-in-the-Loop** · **LLM Evaluation** · **Local Inference** · **Async Execution**
 
+### [Attune](https://github.com/TrungHocCode/attune)
+
+**Tune LLM inference to your hardware.**
+
+Attune is a Rust CLI that closes the gap between datasheet numbers and real performance: it **detects** your hardware (CPU, SIMD, cache, RAM), **measures** its real capability (memory bandwidth, FLOPS, end-to-end tok/s via llama.cpp), **predicts** performance with a calibrated roofline model, then **tunes** and **serves** the best config as a reusable JSON profile.
+
+Through this project, I'm currently exploring:
+
+**Rust** · **Systems Benchmarking** · **Roofline Modeling** · **llama.cpp** · **Cross-platform CLI (Linux/Windows)** · **Reproducible Evaluation**
+
 ## 🚀 Selected projects
 
 | Project | Focus |
 | --- | --- |
 | **[AgentFlow](https://github.com/TrungHocCode/agentflow)** | Multi-agent research workflows, local LLMs, evaluation, background execution, and traceable AI systems |
+| **[Attune](https://github.com/TrungHocCode/attune)** | Hardware-aware LLM inference tuning in Rust — detect, bench, estimate, tune, serve; real bandwidth/FLOPS measurement and calibrated predictions |
 | **[eeg2llm-sleep](https://github.com/TrungHocCode/eeg2llm-sleep)** | EEG processing, deep learning, Transformers, and language-model-based sleep analysis |
 | **[video2text-ocr](https://github.com/TrungHocCode/video2text-ocr)** | Video processing, PaddleOCR, change detection, and structured extraction of Vietnamese stock data |
 
@@ -65,6 +77,7 @@ Through this project, I'm currently exploring:
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat" alt="LangChain" />
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat" alt="LangGraph" />
   <img src="https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/llama.cpp-000000?style=flat" alt="llama.cpp" />
 </p>
 
 ### AI Systems / Backend
@@ -81,6 +94,7 @@ Through this project, I'm currently exploring:
 ### Engineering
 
 <p>
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white" alt="OpenCV" />
@@ -95,7 +109,7 @@ Through this project, I'm currently exploring:
 - **LinkedIn:** [Trung Lương Ngọc](https://www.linkedin.com/in/trung-luong-ngoc-020620s053/)
 - **GitHub:** [@TrungHocCode](https://github.com/TrungHocCode)
 
-I'm especially interested in conversations around **LLM applications, AI agents, evaluation, applied ML, and AI system design**.
+I'm especially interested in conversations around **LLM applications, AI agents, evaluation, applied ML, local inference performance, and AI system design**.
 
 ---
 
